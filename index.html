@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,39 +28,43 @@
             padding: 15px 30px;
             margin: 10px;
             font-size: 18px;
-            color: #fff;
+            color: #333;
             text-decoration: none;
+            border: 2px solid #fff;
             border-radius: 5px;
-            background-color: rgba(0, 0, 0, 0.5);
-            transition: background-color 0.3s ease, transform 0.3s ease;
+            background-color: rgba(255, 255, 255, 0.7);
+            transition: background-color 0.3s ease, transform 0.3s ease, border-color 0.3s ease;
         }
 
         .button:hover {
-            background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(255, 255, 255, 1);
+            border-color: #333;
             transform: scale(1.1);
         }
 
         .button-1 {
-            background-color: rgba(255, 69, 0, 0.7);
+            background-color: rgba(255, 182, 193, 0.7); /* Light pink */
         }
 
         .button-1:hover {
-            background-color: rgba(255, 69, 0, 1);
+            background-color: rgba(255, 182, 193, 1);
+            border-color: #ff69b4; /* Hot pink */
         }
 
         .button-2 {
-            background-color: rgba(30, 144, 255, 0.7);
+            background-color: rgba(173, 216, 230, 0.7); /* Light blue */
         }
 
         .button-2:hover {
-            background-color: rgba(30, 144, 255, 1);
+            background-color: rgba(173, 216, 230, 1);
+            border-color: #1e90ff; /* Dodger blue */
         }
     </style>
 </head>
 <body>
     <div class="button-container">
-        <a href="/name.html" class="Name List">Button 1</a>
-        <a href="/price-converter.html" class="Price List">Button 2</a>
+        <a href="/aws/name.html" class="Name">Button 1</a>
+        <a href="/aws/price-converter.html" class="Price">Button 2</a>
     </div>
 </body>
 </html>
